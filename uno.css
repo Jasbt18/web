@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f6f1eb;
+    font-family: Arial, sans-serif;
+}
+
+.CARTA{
+    width: 30%;
+    margin-right: 100%;
+}
+
+.divCARTA{
+    margin-right: 20%;
+}
+
+.tel{
+    width: 30%;
+    margin-bottom: 10%;
+}
+
+
+.osito{
+    width: 30%;
+    margin-left: 80%;
+}
+
+.flor{
+    width: 70%;
+
+}
+
+.flordiv{
+    margin-top: 10%;
+}
+
+.card {
+    margin-top: 260%;
+
+    background: #e9dfd5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 85%;
+}
+.card h1 {
+    font-family: 'Cursive', sans-serif;
+    font-size: 24px;
+    color: #444;
+}
+.card p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+.heart {
+    color: red;
+    font-size: 24px;
+}
+@media (max-width: 600px) {
+    .card {
+        padding: 1px;
+    }
+    .card h1 {
+        font-size: 20px;
+    }
+    .card p {
+        font-size: 14px;
+    }
+}
+
+/* From Uiverse.io by milley69 */ 
+.loading svg polyline {
+    fill: none;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  
+  .loading svg polyline#back {
+    fill: none;
+    stroke: #ff4d5033;
+  }
+  
+  .loading svg polyline#front {
+    fill: none;
+    stroke: #ff4d4f;
+    stroke-dasharray: 48, 144;
+    stroke-dashoffset: 192;
+    animation: dash_682 1.4s linear infinite;
+  }
+  
+  @keyframes dash_682 {
+    72.5% {
+      opacity: 0;
+    }
+  
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
